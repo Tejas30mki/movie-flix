@@ -1,0 +1,22 @@
+{
+  "name": "movie-flix",
+  "version": "1.0.0",
+  "description": "Movie search engine build with help of OMDb API.",
+  "main": "./server/server.mjs",
+  "scripts": {
+    "test": "NA"
+  },
+  "repository": {
+    "type": "git",
+    "url": "NA"
+  },
+  "keywords": [
+    "movie",
+    "show"
+  ],
+  "author": "Tejas",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

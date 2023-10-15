@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-width: 100vh;
+    min-height: 100vh;
+    overflow: hidden;
+    position: relative;
+    font-family: monospace;
+}
+
+#mainBox {
+    min-width: 100vw;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#top h1 {
+    font-size: 5vw;
+    color: white;
+}
+
+#coverImg {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+
+#movieInput {
+    height: 50px;
+    width: 30%;
+    font-size: larger;
+    padding: 10px;
+}
+
+#movieBtn {
+    height: 70px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: #c11119;
+    color: white;
+    width: 10%;
+    border: 1px solid #c11119;
+    border-radius: 4px;
+    transition: .1s;
+}
+
+#movieBtn:active {
+    height: 70px;
+    padding: 10px;
+    font-size: 30px;
+    background-color: white;
+    color: #c11119;
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.insideMovie {
+    min-width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#top {
+    /* background-color: beige; */
+    display: flex;
+    background-color: #0000005c;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 30vh;
+    gap: 20px;
+}
+
+#movieInfo {
+    height: 70vh;
+    width: 100%;
+    background-color: #0000005c;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#moviePoster {
+    width: 20%;
+    height: 80%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#text-info {
+    color: white;
+    display: flex;
+    width: 50%;
+    height: 80%;
+    flex-direction: column;
+    gap: 10px;
+}
